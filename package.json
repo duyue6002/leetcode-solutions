@@ -1,0 +1,53 @@
+{
+  "name": "LeetCode-in-JS",
+  "version": "0.0.1",
+  "description": "LeetCode Solutions implemented on JavaScript",
+  "main": "index.js",
+  "scripts": {
+    "lint": "eslint ./Solutions/*",
+    "test": "jest",
+    "ci": "npm run lint && npm run test -- --coverage",
+    "codecov": "codecov"
+  },
+  "pre-commit": [
+    "lint",
+    "test"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/duyue6002/LeetCodeSolutions.git"
+  },
+  "keywords": [
+    "computer-science",
+    "cs",
+    "algorithms",
+    "data-structures",
+    "javascript",
+    "algorithm",
+    "javascript-algorithms",
+    "sorting-algorithms",
+    "graph",
+    "tree"
+  ],
+  "author": "Du Yue (https://github.com/duyue6002)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/duyue6002/CtCI-6th-JS/issues"
+  },
+  "homepage": "https://github.com/duyue6002/CtCI-6th-JS",
+  "devDependencies": {
+    "@types/jest": "^22.2.3",
+    "babel-cli": "^6.26.0",
+    "babel-preset-env": "^1.7.0",
+    "codecov": "^3.0.2",
+    "eslint": "^4.19.1",
+    "eslint-config-airbnb": "^16.1.0",
+    "eslint-plugin-import": "^2.12.0",
+    "eslint-plugin-jest": "^21.15.2",
+    "eslint-plugin-jsx-a11y": "^6.0.3",
+    "eslint-plugin-react": "^7.8.2",
+    "jest": "^22.4.4",
+    "pre-commit": "^1.2.2"
+  },
+  "dependencies": {}
+}
