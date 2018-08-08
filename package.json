@@ -1,13 +1,16 @@
 {
-  "name": "LeetCode-in-JS",
+  "name": "LeetCodeSolutions",
   "version": "0.0.1",
-  "description": "LeetCode Solutions implemented on JavaScript",
+  "description": "LeetCode/LintCode implemented on JavaScript",
   "main": "index.js",
   "scripts": {
-    "lint": "eslint ./Solutions/*",
+    "lint": "eslint ./src/*",
     "test": "jest",
     "ci": "npm run lint && npm run test -- --coverage",
     "codecov": "codecov"
+  },
+  "jest": {
+    "testEnvironment": "node"
   },
   "pre-commit": [
     "lint",
@@ -32,9 +35,9 @@
   "author": "Du Yue (https://github.com/duyue6002)",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/duyue6002/CtCI-6th-JS/issues"
+    "url": "https://github.com/duyue6002/LeetCodeSolutions/issues"
   },
-  "homepage": "https://github.com/duyue6002/CtCI-6th-JS",
+  "homepage": "https://github.com/duyue6002/LeetCodeSolutions",
   "devDependencies": {
     "@types/jest": "^22.2.3",
     "babel-cli": "^6.26.0",
