@@ -36,6 +36,7 @@ module.exports = {
             "enforceForRenamedProperties": false
         }],
         "operator-assignment": 0,
-        "no-shadow": 0
+        "no-shadow": 0,
+        "no-mixed-operators": 0
     }
 };
