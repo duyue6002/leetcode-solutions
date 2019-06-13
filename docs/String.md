@@ -1,8 +1,10 @@
-# String
+# 字符串
 
-## 3. Longest Substring Without Repeating Characters
+## 求最长的不重复子串
 
-使用滑动窗口的思想，同时使用set保证唯一性
+[Longest Substring Without Repeating Characters](https://leetcode.com/problems/longest-substring-without-repeating-characters/)
+
+使用滑动窗口的思想，同时使用 set 保证唯一性
 
 ```javascript
 /**
@@ -11,7 +13,9 @@
  */
 var lengthOfLongestSubstring = function(s) {
   let set = new Set();
-  let max = 0, i = 0, j = 0;
+  let max = 0,
+    i = 0,
+    j = 0;
   while (i < s.length) {
     if (!set.has(s.charAt(i))) {
       set.add(s.charAt(i++));
