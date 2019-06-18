@@ -1,2 +1,3 @@
-# MySolutions
-This is a repo to record my leetcode/lintocode solutions via JavaScript
+# READE ME
+
+Just click this: https://duyue6002.github.io/leetcode-solutions/
