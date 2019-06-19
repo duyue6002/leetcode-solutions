@@ -8,7 +8,7 @@
 1. 数组没有重复元素：[Find Minimum in Rotated Sorted Array](https://leetcode.com/problems/find-minimum-in-rotated-sorted-array/)
 2. 数组存在重复元素：[Find Minimum in Rotated Sorted Array II](https://leetcode.com/problems/find-minimum-in-rotated-sorted-array-ii/)
 
-> 数组可以看成两部分，它们都是不严格递增，且后半部分比前半部分都小（或等于）。
+数组可以看成两部分，它们都是不严格递增，且后半部分比前半部分都小（或等于）。
 
 ### 顺序查找
 
