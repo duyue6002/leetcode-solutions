@@ -1,6 +1,4 @@
-# 字符串
-
-## 求最长的不重复子串
+# 求最长的不重复子串
 
 [Longest Substring Without Repeating Characters](https://leetcode.com/problems/longest-substring-without-repeating-characters/)
 

@@ -1,14 +1,12 @@
-# 位运算
-
 > `(num & 1) === 0` // 偶数
 >
 > `(num & 1) !== 0` // 奇数
 >
 > `num >> 1` // 相当于 num / 2
 
-## 计算二进制中 1 的个数
+# 计算二进制中 1 的个数
 
-### 右移+与运算
+## 右移+与运算
 
 ```javascript
 while (num) {
@@ -23,7 +21,7 @@ while (num) {
 
 右移 1 位相当于除以 2，但是移位运算比除法运算更快
 
-### 借助 flag 做与运算，flag 不断左移
+## 借助 flag 做与运算，flag 不断左移
 
 ```javascript
 flag = 1;
@@ -37,7 +35,7 @@ while (flag) {
 
 限制：因为位运算是对 32 位整型操作，所以需要循环 32 次
 
-### 减 1 做与运算
+## 减 1 做与运算
 
 ```javascript
 while (num) {
@@ -46,7 +44,7 @@ while (num) {
 }
 ```
 
-### 变形题
+## 变形题
 
 [Counting Bits](https://leetcode.com/problems/counting-bits/)
 

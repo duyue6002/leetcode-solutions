@@ -1,6 +1,4 @@
-# 双指针
-
-## 调整数组顺序使奇数在偶数前面
+# 调整数组顺序使奇数在偶数前面
 
 [Partition Array by Odd and Even](https://www.lintcode.com/problem/partition-array-by-odd-and-even/description?_from=ladder&&fromId=6)
 
